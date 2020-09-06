@@ -1,4 +1,5 @@
 # Entry_exit_report
+某世一大物院某人由于不想每天实验时都要花上几分钟进行千篇一律的报备而搞。
 ## 依赖
 ### python3
 ### selenium 包
