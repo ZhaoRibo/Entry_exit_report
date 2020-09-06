@@ -8,6 +8,7 @@ phone = ''
 
 # 打开门户并进入认证界面
 driver = webdriver.Chrome("chromedriver.exe")   # 填写自己电脑浏览器驱动程序位置
+driver.implicitly_wait(10)
 driver.get(
     r"https://portal.pku.edu.cn/portal2017/#/index?rand=0.9019998387126195")
 driver.find_element_by_xpath(
